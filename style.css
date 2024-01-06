@@ -1,0 +1,149 @@
+.navbar{
+    padding: 5px 0;
+    
+    
+}
+.navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #262626;
+}
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #262626;
+    color: #fff;
+
+}
+.banner{
+    position: relative;
+    background:linear-gradient(rgba(0,0,0,0.5),#0E3492 ),url(bg.png.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+.container{
+    text-align: center;
+    color: #fff;
+    
+}
+.container input{
+    width: 20%;
+    padding: 5px;
+    border: 1px solid rgba(255,255,255,0.25);
+    background:inherit;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#testimonial{
+    width: 100%;
+    padding: 70px 0;
+}
+.testimonial-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.user-info .fa{
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+.user-info small{
+    color: #009688;
+}
+.testimonial-col:hover{
+    transform:translateY(-7px);
+}
+@media screen and (max-width: 770px){
+    .testimonial-col{
+        flex-basis: 100%;
+    }
+}
+h1{
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+}
+.social{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social a{
+    font-size: 20px;
+    display: inline-block;
+    
+
+    width: 25px;
+    padding: 10px;
+    
+}
+
+.footer ul{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+}
+
+.paragraph{
+    text-align: center;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+.footer{
+    background-color: black;
+}
+
+
+
+
+
+
